@@ -64,6 +64,7 @@ import './add/operator/distinctUntilKeyChanged';
 import './add/operator/do';
 import './add/operator/exhaust';
 import './add/operator/exhaustMap';
+import './add/operator/exhaustScan';
 import './add/operator/expand';
 import './add/operator/elementAt';
 import './add/operator/filter';

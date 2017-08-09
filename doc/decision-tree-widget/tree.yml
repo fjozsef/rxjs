@@ -117,6 +117,9 @@ children:
       - label: and output the computed values as a nested Observable when the source emits a value
         children:
         - label: mergeScan
+      - label: and output the computed values as a nested Observable when the source emits a value and ignore incoming values while the current nested Observable has not yet completed
+        children:
+        - label: exhaustScan
     - label: I want to wrap its messages with metadata
       children:
       - label: that describes each notification (next, error, or complete)
